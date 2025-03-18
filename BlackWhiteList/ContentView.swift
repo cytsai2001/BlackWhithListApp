@@ -29,7 +29,8 @@ class HashtagStore: ObservableObject {
     let presets: [PresetCategory] = [
       PresetCategory(category: "#中國台灣", items: ["L'Oreal", "Estée Lauder", "資生堂"]),
       PresetCategory(category: "#中資", items: ["中資店1", "中資店2"]),
-      PresetCategory(category: "#食安", items: ["食安店A", "食安店B"]),
+      PresetCategory(category: "#食安", items: ["味全", "食安店B"]),
+      PresetCategory(category: "#厭女", items: ["麥當勞", "食安店B"]),
     ]
     self.presetCategories = presets
 
