@@ -3,6 +3,7 @@ import OSLog
 
 private let logger = Logger()
 
+// this is a test comment
 
 // MARK: - 資料模型_just_practice
 struct BlacklistItem: Identifiable, Equatable {
